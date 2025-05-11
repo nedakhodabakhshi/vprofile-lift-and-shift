@@ -45,7 +45,7 @@ Artifact deployment to/from S3
 
 Login page
 
-## 🛠 **Setup Scripts**
+🛠 Setup Scripts
 All scripts are located in scripts/:
 
 mariadb.sh: Installs MariaDB, configures user/database
@@ -54,5 +54,5 @@ memcached.sh: Installs Memcached and enables remote access
 
 tomcat_ubuntu.sh: Installs Tomcat 9 and OpenJDK 17
 
-## 🐞 **Troubleshooting**
+🐞 Troubleshooting
 Check issues/tomcat-problems.txt for known issues and how to fix JAVA_HOME for Tomcat.
