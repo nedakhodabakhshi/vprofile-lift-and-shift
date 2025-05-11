@@ -32,7 +32,8 @@ Route 53 DNS setup
 
 S3 for storing .war artifacts
 
-Screenshots
+```bash
+📸Screenshots
 Screenshots included in screenshots/:
 
 EC2 and SG configuration
@@ -45,6 +46,7 @@ Artifact deployment to/from S3
 
 Login page
 
+```bash
 🛠 Setup Scripts
 All scripts are located in scripts/:
 
@@ -54,5 +56,6 @@ memcached.sh: Installs Memcached and enables remote access
 
 tomcat_ubuntu.sh: Installs Tomcat 9 and OpenJDK 17
 
+```bash
 🐞 Troubleshooting
 Check issues/tomcat-problems.txt for known issues and how to fix JAVA_HOME for Tomcat.
