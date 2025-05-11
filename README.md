@@ -12,6 +12,7 @@ vprofile-lift-and-shift/
 ├── issues/            # Notes and fixes for common problems
 ├── screenshots/       # Architecture, EC2, S3, and setup images
 ├── README.md          # This file
+
 Deployment Overview
 App Server: Tomcat 9 on Ubuntu
 
@@ -30,7 +31,8 @@ Load Balancer and Security Groups
 Route 53 DNS setup
 
 S3 for storing .war artifacts
- Screenshots
+
+Screenshots
 Screenshots included in screenshots/:
 
 EC2 and SG configuration
