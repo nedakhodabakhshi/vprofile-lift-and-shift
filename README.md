@@ -32,7 +32,7 @@ Route 53 DNS setup
 
 S3 for storing .war artifacts
 
-## 📸 **Screenshots**
+📸 Screenshots
 Screenshots included in screenshots/:
 
 EC2 and SG configuration
