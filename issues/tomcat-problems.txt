@@ -1,0 +1,9 @@
+#If tomcat did not start
+sudo nano /etc/environment
+#Add this line at the end:
+JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+source /etc/environment
+echo $JAVA_HOME
+sudo systemctl daemon-reexec
+sudo systemctl restart tomcat9
+
